@@ -11,11 +11,11 @@
 #  php artisan install:api --passport
 # php artisan passport:client --personal
 
-<!-- What should we name the personal access client? [Laravel Personal Access Client]:
- > Auth Api 
- -->
+ What should we name the personal access client? [Laravel Personal Access Client]:
+  Auth Api 
+ 
 
-  <!-- 'guards' => [
+   'guards' => [
         'web' => [
             'driver' => 'session',
             'provider' => 'users',
@@ -24,7 +24,7 @@
             'driver' => 'passport',
             'provider' => 'users',
         ],
-    ], -->
+    ], 
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
